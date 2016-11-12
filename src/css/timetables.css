@@ -1,0 +1,18 @@
+.timetables{
+    background-image: url("../images/1.jpg");
+}
+p{
+    font-size:12px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+th
+{
+    text-align: center;
+}
+tr td
+{
+    /*height:30px;*/
+    text-align: center;
+    /*border:5px solid #f00;*/
+}

@@ -1,0 +1,211 @@
+@charset "utf-8";
+img {
+	border:none;
+}
+
+.carousel {
+	height:348px;
+	overflow:hidden;
+	background:#262626;
+}
+.carousel .wrap {
+	position:relative;
+}
+.slide-caption {
+	position:relative;
+	z-index:10;
+	float:left;
+	width:376px;
+	min-height: 280px;
+	padding:68px 40px 0;
+	background-image: url(../images/vignette.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.comp-a {
+	background-color: #52854c;
+}
+.comp-b {
+	background-color: #8c8179;
+}
+.comp-c {
+	background-color: #293352;
+}
+.comp-d {
+	background-color: #a51c30;
+}
+.slide-caption h2 {
+	margin-bottom:85px;
+	color:#fff;
+	font-size:30px;
+	line-height:38px;
+	font-family:'微软雅黑';
+	font-weight:normal;
+}
+.slide-caption h2 a {
+	color:#fff;
+	text-decoration: none;
+}
+.slide-caption h2 a:hover, .slide-caption h2 a:focus {
+	color: #e6eae2;
+	text-decoration: none;
+}
+.slide-callout {
+	width: 900px;
+}
+.slide-callout p {
+	float:left;
+	max-width:750px;
+	line-height:20px;
+	padding:8px 30px 7px 12px;
+	background:#fff;
+	background: rgba(255, 255, 255, .9);
+	color:#363636;
+	font-size:16px;
+	font-family:'微软雅黑';
+	font-weight:normal;
+}
+.slide-callout p:hover {
+	background:#e6eae2;
+}
+.slide-callout p a {
+	color:#363636;
+	text-decoration:none;
+}
+.slide-callout p a:hover, .slide-callout p a:focus {
+	color: #363636;
+	text-decoration: none;
+}
+.slide-callout .more {
+	padding: 0;
+}
+.comp-a .slide-callout .more {
+	background-color: #52854c;
+}
+.comp-b .slide-callout .more {
+	background-color: #8c8179;
+}
+.comp-c .slide-callout .more {
+	background-color: #293352;
+}
+.comp-d .slide-callout .more {
+	background-color: #a51c30;
+}
+.slide-callout .more a {
+	display:inline-block;
+	line-height:20px;
+	padding:8px 10px 7px;
+	background:none;
+	color:#fff;
+	text-transform:none;
+	font-weight:normal;
+	font-style:italic;
+	font-family:Georgia, "Times New Roman", serif;
+}
+.slide-callout .more a:hover, .slide-callout .more a:focus {
+	background: #000;
+	text-decoration: none;
+	color:#fff;
+}
+.carousel-image {
+	position: absolute;
+	right: 0;
+}
+.carousel-item {
+	position: relative;
+}
+.carousel-item-secondary {
+	display: none;
+}
+* html .carousel {
+	height: 348px !important;
+}
+* html .slide-caption {
+	background-image: none !important;
+	height: 220px;
+}
+* html .carousel-item {
+	height: 348px;
+}
+.comp-b, .comp-b .slide-callout .more {
+	background-color: #8c8179;
+}
+.comp-c, .comp-c .slide-callout .more {
+	background-color: #293352;
+}
+.comp-d, .comp-d .slide-callout .more {
+	background-color: #a51c30;
+}
+.carousel-controls {
+	position: absolute;
+	z-index: 100;
+	left: 50%;
+	bottom: 43px;
+	width: 98px;
+	height: 32px;
+	margin-left: -449px;
+	overflow: hidden;
+}
+* html .carousel-controls {
+	bottom: 20px;
+}
+.carousel-controls a {
+	float:left;
+	display:block;
+	width:32px;
+	height:32px;
+	text-indent:-9999px;
+	background-image: url(../images/controls-carousel.gif);
+	background-color:transparent;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.carousel-controls .next {
+	background-position: -99px -32px;
+	border-left: 1px solid #333;
+}
+.carousel-controls .next:hover, .carousel-controls .next:focus {
+	background-position: -99px 0;
+	border-color: #ccc;
+}
+.carousel-controls .previous {
+	background-position: 0 -32px;
+}
+.carousel-controls .previous:hover, .carousel-controls .previous:focus {
+	background-position: 0 0;
+}
+.carousel-controls .pause {
+	background-position: -33px -32px;
+	border-left: 1px solid #333;
+}
+.carousel-controls .pause:hover, .carousel-controls .pause:focus {
+	background-position: -33px 0;
+	border-color: #ccc;
+}
+.carousel-controls .play {
+	position: relative;
+	bottom: auto;
+	left: auto;
+	background-position: -66px -32px;
+	border-left: 1px solid #333;
+}
+.carousel-controls .play:hover, .carousel-controls .play:focus {
+	background-position: -66px 0;
+	border-color: #ccc;
+}
+.carousel .prev-image {
+	position: absolute;
+	left: -978px;
+	top: 0;
+	opacity: 0.2;
+}
+.carousel .next-image {
+	position: absolute;
+	top: 0;
+	right: -522px;
+	opacity: 0.2;
+}
+.more02{position:absolute;left:50%;bottom:43px;width:60px;height:32px;line-height:32px;margin-left:-352px;z-index:110;overflow:hidden;background-color:#000;text-align:center;font-size:14px;}
+.more02 a{color:#fff;display:inline-block;width:60px;height:32px;}
+.more02 a:hover{color:#000;text-decoration:none;background-color:#fff;}

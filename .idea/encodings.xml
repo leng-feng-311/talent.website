@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/audio.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/information.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/resources.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/resume.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/science.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/scienceAndTechnology.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/timetables.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/video.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/js/videos.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/css/agency.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vendor/js/audio.js" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

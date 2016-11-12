@@ -1,0 +1,99 @@
+/*
+ *
+ * bootstrap-calendar plugin
+ * Original author: @ahmontero
+ * Licensed under the MIT license
+ *
+ */
+
+.calendar body {
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.year {
+
+    font-size: 18px;
+    margin: 0 0 0 0;
+    width: 100px;
+}
+
+.month {
+
+    font-size: 18px;
+    margin: -30px 10px 0px 10px;
+}
+
+.calendar {
+    table-layout: fixed;
+    width: 100%;
+}
+.calendar TH {
+    border: 1px solid #ddd;
+    font-size: 1em;
+    height: 30px;
+    text-align: center;
+    transition: background 0.2s linear 0s;
+}
+.calendar TD, TD.day {
+    border: 1px solid #ddd;
+    font-size: 16px;
+    height: 2em;
+    text-align: center;
+    transition: background 0.2s linear 0s;
+}
+.calendar TD.day:hover {
+    background: #ddd none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    outline: 0 none;
+}
+.calendar TD.weekend {
+    color: #999;
+}
+.calendar TD.color-green {
+    border: 2px solid red;
+}
+.calendar TD.color-green:hover {
+    background: #ddd none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    outline: 0 none;
+}
+.calendar TD.holiday {
+    color: red;
+}
+.calendar TD.holiday:hover {
+    cursor: pointer;
+}
+.calendar TD SPAN.weekday {
+    background-color: #ddd;
+    border-radius: 14%;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+.calendar TD SPAN.weekday:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.calendar TFOOT, .calendar TFOOT TR TH.sel {
+    border: 1px solid #ddd;
+    color: #555;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+    height: 15px;
+    text-align: center;
+    transition: background 0.2s linear 0s;
+    width: 50px;
+}
+.calendar TFOOT TR TH.sel:hover {
+    background: #ddd none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    outline: 0 none;
+}
+.calendar .arrow {
+    padding: 5px 0;
+}

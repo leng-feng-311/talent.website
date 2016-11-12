@@ -1,0 +1,294 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <a class="navbar-brand page-scroll" ui-sref="home" title="首页">农业信息传播网</a>
+        </div>
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" ui-sref="home">首页</a>
+                </li>
+                <li>
+                    <a class="page-scroll" ui-sref=".information">资讯</a>
+                </li>
+                <li>
+                    <a class="page-scroll" ui-sref=".scienceAndTechnology">科技</a>
+                </li>
+                <li>
+                    <a class="page-scroll" ui-sref=".service">服务</a>
+                </li>
+                <li>
+                    <a class="page-scroll" ui-sref=".science">科普</a>
+                </li>
+                <li>
+                    <a class="page-scroll" ui-sref=".resources">资源</a>
+                </li>
+                <li>
+                    <a class="page-scroll" ui-sref=".videos">视频</a>
+                </li>
+                <li>
+                    <a class="pull-right" style="margin-right: -100px" href="">
+                        <div ui-view="audio" >
+
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div ui-view="">
+    <div ui-view="header"></div>
+</div>
+
+<div class="well no-padding no-margin" style="padding: 0 1px;">
+    <div class="container friendship">
+        <div class="row no-margin">
+            <form id="From2" class="sky-form no-margin-bottom" novalidate="novalidate">
+                <div class="col-lg-2 col-md-4 col-xs-12 col-sm-6 from-d">
+                    <fieldset>
+                        <div class="row">
+                            <section>
+                                <label class="select">
+                                    <select onchange="window.open(this.options[this.selectedIndex].value)"
+                                            style="background-color:#fafafa;" data-placeholder="Choose a Country..."
+                                            name="country">
+                                        <option value="0">--新闻媒体--</option>
+                                        <option value="http://www.studytimes.com.cn:9999/epaper/xxsb/html/2012/06/18/01/default.htm">
+                                            学习时报
+                                        </option>
+                                        <option value="http://www.qstheory.cn/">求是理论网</option>
+                                        <option value="http://www.jinghua.cn/">京华网</option>
+                                        <option value="http://www.bjnews.com.cn/">新京报网</option>
+                                        <option value="http://bjyouth.ynet.com/">北青网</option>
+                                        <option value="http://www.bjd.com.cn/">京报网</option>
+                                        <option value="http://www.stdaily.com/">中国科技网</option>
+                                        <option value="http://www.farmer.com.cn/">中国农业新闻网</option>
+                                        <option value="http://www.people.com.cn">人民网</option>
+                                        <option value="http://www.xinhuanet.com">新华网</option>
+                                        <option value="http://www.gmw.cn">光明网</option>
+                                        <option value="http://www.ce.cn">中国经济网</option>
+                                        <option value="http://www.cntv.cn">央视网</option>
+                                        <option value="http://www.sciencenet.cn">科学网</option>
+                                        <option value="http://www.sina.com.cn">新浪网</option>
+                                        <option value="http://www.sohu.com">搜狐网</option>
+                                    </select>
+                                    <i></i>
+                                </label>
+                            </section>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 col-sm-6 from-d">
+                    <fieldset>
+                        <div class="row">
+                            <section>
+                                <label class="select">
+                                    <select id="Select2" onchange="location1(this)" name="m2">
+                                        <option selected="">--政府机构和组织--</option>
+                                        <option value="http://www.gov.cn">中国政府网</option>
+                                        <option value="http://www.sdpc.gov.cn">国家发改委</option>
+                                        <option value="http://www.most.gov.cn">科学技术部</option>
+                                        <option value="http://www.mof.gov.cn">财政部</option>
+                                        <option value="http://www.moa.gov.cn">农业部</option>
+                                        <option value="http://www.miit.gov.cn">工信部</option>
+                                        <option value="http://www.moe.edu.cn">教育部</option>
+                                        <option value="http://www.mwr.gov.cn">水利部</option>
+                                        <option value="http://www.mofcom.gov.cn">商务部</option>
+                                        <option value="http://www.zhb.gov.cn">环保部</option>
+                                        <option value="http://www.mlr.gov.cn">国土资源部</option>
+                                        <option value="http://www.mohurd.gov.cn">住房城乡建设部</option>
+                                        <option value="http://www.sasac.gov.cn">国资委</option>
+                                        <option value="http://www.pbc.gov.cn">中国人民银行</option>
+                                        <option value="http://www.mohrss.gov.cn">人力资源社会保障部</option>
+                                        <option value="http://www.forestry.gov.cn">国家林业局</option>
+                                        <option value="http://www.cma.gov.cn">中国气象局</option>
+                                    </select>
+                                    <i></i>
+                                </label>
+                            </section>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-2 col-md-6 col-xs-6 col-sm-6 from-d">
+                    <fieldset>
+                        <div class="row">
+                            <section>
+                                <label class="select">
+                                    <select id="Select3" onchange="location1(this)" name="m3">
+                                        <option selected="">--国内院校--</option>
+                                        <option value="http://www.neau.cn">东北农业大学</option>
+                                        <option value="http://www.sicau.edu.cn">四川农业大学</option>
+                                        <option value="http://www.fafu.edu.cn">福建农林大学</option>
+                                        <option value="http://www.bjfu.edu.cn">北京林业大学</option>
+                                        <option value="http://www.yzu.edu.cn">扬州大学</option>
+                                        <option value="http://www.sdau.edu.cn">山东农业大学</option>
+                                        <option value="http://www.scau.edu.cn">华南农业大学</option>
+                                        <option value="http://www.hzau.edu.cn">华中农业大学</option>
+                                        <option value="http://www.zju.edu.cn">浙江大学</option>
+                                        <option value="http://www.nwsuaf.edu.cn">西北农林科技大学</option>
+                                        <option value="http://www.njau.edu.cn">南京农业大学</option>
+                                        <option value="http://www.cau.edu.cn">中国农业大学</option>
+                                        <option value="http://www.pku.edu.cn">北京大学</option>
+                                        <option value="http://www.tsinghua.edu.cn">清华大学</option>
+                                    </select>
+                                    <i></i>
+                                </label>
+                            </section>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-2 col-md-6 col-xs-6 col-sm-6 from-d">
+                    <fieldset>
+                        <div class="row">
+                            <section>
+                                <label class="select">
+                                    <select id="Select4" onchange="location1(this)" name="m4">
+                                        <option selected="">--国际院校--</option>
+                                        <option value="http://www.uni-goettingen.de">哥廷根大学</option>
+                                        <option value="http://www.ugent.be">根特大学</option>
+                                        <option value="http://www.wur.nl/uk">瓦赫宁根大学</option>
+                                        <option value="http://www.birmingham.ac.uk">英国伯明翰大学</option>
+                                        <option value="http://www.uq.edu.au">澳大利亚昆士兰大学</option>
+                                        <option value="http://www.osu.edu">俄亥俄州立大学</option>
+                                        <option value="http://www.uiowa.edu">衣阿华州立大学</option>
+                                        <option value="http://www.umd.edu">马里兰大学</option>
+                                        <option value="http://www.unh.edu">新罕布什尔大学</option>
+                                        <option value="http://www.uoguelph.ca">圭尔夫大学</option>
+                                    </select>
+                                    <i></i>
+                                </label>
+                            </section>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-2 col-md-6 col-xs-6 col-sm-6 from-d">
+                    <fieldset>
+                        <div class="row">
+                            <section>
+                                <label class="select">
+                                    <select id="Select5" onchange="location1(this)" name="m5">
+                                        <option selected="">--科研机构--</option>
+                                        <option value="http://www.vti.bund.de/en/startseite/about-us/johann-heinrich-von-thuenen.html">
+                                            德国联邦农业研究中心
+                                        </option>
+                                        <option value="http://sito.entecra.it">意大利农业研究委员会(CRA)</option>
+                                        <option value="http://www.iao.florence.it">意大利海外农业研究所</option>
+                                        <option value="http://www.cnr.it/sitocnr/Englishversion/Englishversion.html">
+                                            意大利国家研究委员会
+                                        </option>
+                                        <option value="http://www.fera.defra.gov.uk">英国食品和环境研究院</option>
+                                        <option value="http://www.afbini.gov.uk">北爱尔兰农业食品与生物科学院</option>
+                                        <option value="http://www.sainonline.org">中英可持续农业创新协作网</option>
+                                        <option value="http://aciar.gov.au">澳大利亚国际农业研究中心</option>
+                                        <option value="http://www.csiro.au">澳大利亚联邦科学与工业研究组织</option>
+                                        <option value="http://www.inta.gov.ar">阿根廷国家农业技术研究院</option>
+                                        <option value="http://www.embrapa.br/english">巴西农业研究院</option>
+                                        <option value="http://www.inia.cl/link.cgi">智利农牧研究院</option>
+                                        <option value="http://www.inifap.gob.mx/index.html">墨西哥国家农林牧研究院</option>
+                                        <option value="http://www.ars.usda.gov/main/main.htm">美国农业部农业研究局</option>
+                                        <option value="http://www.acdi-cida.gc.ca">加拿大国际开发署</option>
+                                        <option value="http://www.agr.gc.ca">加拿大农业部</option>
+                                        <option value="http://www.nmnky.com">内蒙古农牧业科学院</option>
+                                        <option value="http://www.hljagri.gov.cn">黑龙江省农业委员会</option>
+                                        <option value="http://www.gsagr.ac.cn">甘肃省农业科学院</option>
+                                        <option value="http://www.gdaas.cn">广东省农业科学院</option>
+                                        <option value="http://www.zaas.ac.cn">浙江省农业科学院</option>
+                                        <option value="http://www.cqaas.cn">重庆市农业科学院</option>
+                                        <option value="http://www.xaas.ac.cn">新疆农业科学院</option>
+                                        <option value="http://www.nxaas.com.cn">宁夏农林科学院</option>
+                                        <option value="http://www.jxaas.com">江西省农业科学院</option>
+                                        <option value="http://www.hnaas.org.cn">海南省农业科学院</option>
+                                        <option value="http://www.sxny.gov.cn">陕西省农业厅</option>
+                                        <option value="http://www.hnagri.com">湖南省农业科学院</option>
+                                        <option value="http://www.jaas.ac.cn">江苏省农业科学院</option>
+                                        <option value="http://www.tjagri.ac.cn">天津市农业科学院</option>
+                                        <option value="http://www.gxaas.net">广西农业科学院</option>
+                                        <option value="http://www.ahas.org.cn">安徽省农业科学院</option>
+                                        <option value="http://www.laas.net.cn">辽宁省农业科学院</option>
+                                        <option value="http://www.faas.cn">福建省农业科学院</option>
+                                        <option value="http://www.taaas.org">西藏自治区农牧科学院</option>
+                                        <option value="http://www.hbaas.com">湖北省农业科学院</option>
+                                        <option value="http://www.saas.ac.cn">山东省农业科学院</option>
+                                        <option value="http://www.saas.sh.cn">上海市农业科学院</option>
+                                        <option value="http://www.hebnky.com">河北省农林科学院</option>
+                                        <option value="http://www.chinawestagr.com">四川省农业科学院</option>
+                                        <option value="http://www.gzaas.com.cn">贵州省农业科学院</option>
+                                        <option value="http://www.sxagri.ac.cn">山西农业科学院</option>
+                                        <option value="http://www.yaas.org.cn">云南省农科院</option>
+                                        <option value="http://www.hnagri.org.cn">河南省农业科学院</option>
+                                        <option value="http://www.cn-ny.org">吉林省农业科学院</option>
+                                        <option value="http://www.baafs.net.cn">北京市农林科学院</option>
+                                        <option value="http://www.iwhr.com">水科院</option>
+                                        <option value="http://www.forestry.ac.cn">林科院</option>
+                                        <option value="http://www.catas.cn">中国热带农业科学院</option>
+                                        <option value="http://www.cas.cn">中国科学院</option>
+                                    </select>
+                                    <i></i>
+                                </label>
+                            </section>
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">联系我们</h2>
+                <h3 class="section-subheading text-muted" style="color:#E0E0E0">我们倾听每一位伙伴的心声，同时接受商业计划书的投递，欢迎与我们联系。</h3>
+                <img class="img" src="src/images/md.jpg">
+                <p style="color:#F0F0F0">扫描微信公众号二维码获取最新信息</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <h3 style="color:#F0F0F0">地址</h3>
+                    <p style="color:#F0F0F0">
+                        技术支持：Talent技术责任公司
+                        <br>
+                        地址：北京市昌平区生命科学园
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <h3 style="color:#F0F0F0">电话</h3>
+                    <p style="color:#F0F0F0">
+                        <a href="tel:4001053558">400-105-3558</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <h3 style="color:#F0F0F0">邮箱</h3>
+                    <p style="color:#F0F0F0">
+                        <a href="123@163.com">123@163.com</a>
+                        （意见反馈）
+                        <br>
+                        <a href="123@163.com">123@163.com</a>
+                        （商业计划书）
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright © Talent（2016）| 京ICP备161112 </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
