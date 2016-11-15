@@ -1,504 +1,446 @@
-<header>
-    <div class="pull-right" style="padding-top: 65px">
-        <div id="demo">
-            <script>$('#demo').leoweather({
-                format: '<img src="src/icon/{图标}.png"><i>{气温}℃</i>' +
-                '<p>{城市}<span>|</span>{昼夜}<span>|</span>{天气}<span>|</span>{风向}{风级}级</p>'
-            });</script>
-        </div>
+<>
+<div class="pull-right" style="padding-top: 65px">
+    <div id="demo">
+        <script>$('#demo').leoweather({
+            format: '<img src="src/icon/{图标}.png"><i>{气温}℃</i>' +
+            '<p>{城市}<span>|</span>{昼夜}<span>|</span>{天气}<span>|</span>{风向}{风级}级</p>'
+        });</script>
     </div>
-    <div class="container">
-        <div class="intro-text">
-            <div class="intro-lead-in">农业信息  Agricultural Information</div>
-        </div>
-        <div class="thumbnail" style="height: 460px">
-            <div id="ad-carousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#ad-carousel" data-slide-to="1"></li>
-                    <li data-target="#ad-carousel" data-slide-to="2"></li>
-                    <li data-target="#ad-carousel" data-slide-to="3"></li>
-                    <li data-target="#ad-carousel" data-slide-to="4"></li>
-                    <li data-target="#ad-carousel" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="src/images/carousel/01.gif" class="img-responsive full-width">
-                        <div class="carousel-caption">
-                            <h3>农业智能化的发展方向:</h3>
-                            <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="src/images/carousel/1.jpg" class="img-responsive full-width">
-                        <div class="carousel-caption">
-                            <h3>农业智能化的发展方向:农业里的阿尔法狗</h3>
-                            <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="src/images/carousel/2.jpg" class="img-responsive full-width">
-                        <div class="carousel-caption">
-                            <h3>未来10大农业新兴技术“带你飞”</h3>
-                            <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="src/images/carousel/3.jpg" class="img-responsive full-width">
-                        <div class="carousel-caption">
-                            <h3>未来10大农业新兴技术“带你飞”</h3>
-                            <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="src/images/carousel/4.jpg" class="img-responsive full-width">
-                        <div class="carousel-caption">
-                            <h3>未来10大农业新兴技术“带你飞”</h3>
-                            <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="src/images/carousel/5.jpg" class="img-responsive full-width">
-                        <div class="carousel-caption">
-                            <h3>未来10大农业新兴技术“带你飞”</h3>
-                            <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="src/images/carousel/6.jpg" class="img-responsive full-width">
-                        <div class="carousel-caption">
-                            <h3>未来10大农业新兴技术“带你飞”</h3>
-                            <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
-                        </div>
-                    </div>
-                    <a class="left carousel-control" href="#ad-carousel" role="button"
-                       data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <!--<i class="fa fa-chevron-left" aria-hidden="true"></i>-->
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#ad-carousel" role="button"
-                       data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">NEXT</span>
-                    </a>
-                </div>
-            </div>
-        </div>
+</div>
+<div class="container">
+    <div class="intro-text">
+        <div class="intro-lead-in">农业信息 Agricultural Information</div>
     </div>
-    <div class="container">
-        <div class="well well-sm" style="background-color: #fcfcfc;box-shadow: none;border-width: 0 1px 1px 1px; ">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-4" >
-                        <div class="col-md-12 onehot" id ="onehot">
-                            <h2>一周热帖</h2>
-                            <ul class="padding-0" style="list-style: none; line-height: 2;margin: 0 10px;">
-                                <li>
-                                    <span class="font-color6"><a title="国内动态" target="_blank" href="9.html">[国内动态]</a>
-                                   </span>
-                                    <i></i>
-                                    <a title="“习总书记考察黑龙江”漫评" target="_blank" href="1.html">“习总书记考察黑龙江”漫评</a>
-                                </li>
-                                <li>
-                                    <span class="font-color6"><a title="国内动态" target="_blank" href="9.html">[农业展会]</a>
-                                   </span>
-                                    <i></i>
-                                    <a title="伊利国际化理念“刷屏”G20农业企业家论坛" target="_blank" href="http://zrny.net/article-8-1.html">伊利国际化理念“刷屏”G20农业企业家论坛</a>
-                                </li>
-                                <li>
-                                    <span class="font-color6"><a title="国内动态" target="_blank" href="9.html">[市场行情]</a>
-                                   </span>
-                                    <i></i>
-                                    <a title="农业部：生猪价格波动风险明显加大" target="_blank" href="http://zrny.net/article-6-1.html">农业部：生猪价格波动风险明显加大</a>
-                                </li>
-                                <li>
-                                    <span class="font-color6"><a title="国内动态" target="_blank" href="9.html">[国内动态]</a>
-                                   </span>
-                                    <i></i>
-                                    <a title="“习总书记考察黑龙江”漫评" target="_blank" href="1.html">“习总书记考察黑龙江”漫评</a>
-                                </li>
+    <div class="thumbnail" style="height: 460px">
+        <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#ad-carousel" data-slide-to="1"></li>
+                <li data-target="#ad-carousel" data-slide-to="2"></li>
+                <li data-target="#ad-carousel" data-slide-to="3"></li>
+                <li data-target="#ad-carousel" data-slide-to="4"></li>
+                <li data-target="#ad-carousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="src/images/carousel/01.gif" class="img-responsive full-width">
 
-                            </ul>
-                        </div>
-                        <div class="col-md-12 onehot" border-top:1px solid #000>
-                            <div class="comiis_ibox">
-                                <h2 class="cl">
-                                    <div class="comiis_ibox_rad">
-                                        <div id="comiis_meizhou_mad04" class="area">
-                                        </div>
-                                    </div>
-                                    <a href="http://www.zrny.net" target="_blank">生活快讯</a>
-                                </h2>
-                                <div class="comiis_shkx cl">
-                                    <div id="comiis_meizhou04" class="area">
-                                        <div id="frameqQ3V6V" class="cl_frame_bm frame move-span cl frame-1">
-                                            <div id="frameqQ3V6V_left" class="column frame-1-c">
-                                                <div id="frameqQ3V6V_left_temp" class="move-span temp">
-                                                </div>
-                                                <div id="portal_block_414" class="cl_block_bm block move-span">
-                                                    <div id="portal_block_414_content" class="dxb_bc">
-                                                        <ul id="comiis_shkx">
-                                                            <li class="no1">
-                                                                <span><a href="http://zrny.net/portal.php?mod=list&amp;catid=10" target="_blank">农业展会</a></span>
-                                                                <i></i>
-                                                                <a href="article-8-1.html" title="伊利国际化理念“刷屏”G20农业企业家论坛" target="_blank">伊利国际化理念“刷屏”G20农业企业家论坛</a>
-                                                            </li>
-                                                            <li class="no2"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=2" target="_blank">国内动态</a></span>
-                                                                <i></i>
-                                                                <a href="article-7-1.html" title="“习总书记考察黑龙江”漫评：以农业供给侧结构性改革保粮食安全" target="_blank">“习总书记考察黑龙江”漫评：以农业供给侧</a>
-                                                            </li>
-                                                            <li class="no3"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=4" target="_blank">市场行情</a></span>
-                                                                <i></i><a href="article-6-1.html" title="农业部：生猪价格波动风险明显加大" target="_blank">农业部：生猪价格波动风险明显加大</a>
-                                                            </li>
-                                                            <li class="no4"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=4" target="_blank">市场行情</a></span>
-                                                                <i></i><a href="article-5-1.html" title="大茶控股全线布局互联网+农业 大农优选今上线" target="_blank">大茶控股全线布局互联网+农业 大农优选今上</a>
-                                                            </li>
-                                                            <li class="no5"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=2" target="_blank">国内动态</a></span>
-                                                                <i></i><a href="article-4-1.html" title="河北全力防控小麦病虫 努力保障夏粮丰产丰收" target="_blank">河北全力防控小麦病虫 努力保障夏粮丰产丰</a>
-                                                            </li>
-                                                            <li class="no6"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=4" target="_blank">市场行情</a></span>
-                                                                <i></i><a href="article-3-1.html" title="农业实用技术送到贫困户手中" target="_blank">农业实用技术送到贫困户手中</a>
-                                                            </li>
-                                                            <li class="no7"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=2" target="_blank">国内动态</a></span>
-                                                                <i></i>
-                                                                <a href="article-2-1.html" title="一季度中国农业经济景气指数报告发布：季节波动特征明显 结构优化有待发力" target="_blank">一季度中国农业经济景气指数报告发布：季节</a>
-                                                            </li>
-                                                            <li class="no8"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=2" target="_blank">国内动态</a></span>
-                                                                <i></i><a href="article-1-1.html" title="粮食生产大省必须加速农业现代化" target="_blank">粮食生产大省必须加速农业现代化</a>
-                                                            </li>
-                                                            <li class="no8"><span><a href="http://zrny.net/portal.php?mod=list&amp;catid=2" target="_blank">国内动态</a></span>
-                                                                <i></i>
-                                                                <a href="article-1-1.html" title="粮食生产大省必须加速农业现代化" target="_blank">粮食生产大省必须加速农业现代化</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="unit1">
-                            <div class="title"><h2>品种推介</h2><a href="kj/pztj/index.shtml" target="_blank">更多</a></div>
-                            <img src="src/images/img/pinzhong.jpg">
-                            <ul>
-                                <li><a href="kj/pztj/276756.shtml" title="水稻新品种-徐稻3号" target="_blank">            水稻新品种-徐稻3号
-                                </a></li>
-                                <li><a href="kj/pztj/276604.shtml" title="大豆新品种-徐豆 15" target="_blank">            大豆新品种-徐豆 15
-                                </a></li>
-                                <li><a href="kj/pztj/276298.shtml" title="油料新品种（芝麻）-中芝 11号" target="_blank">            油料新品种（芝麻）-中芝...
-                                </a></li>
-                                <li><a href="kj/pztj/276025.shtml" title="杂粮新品种-徐薯 22号" target="_blank">            杂粮新品种-徐薯 22号
-                                </a></li>
-                                <li><a href="kj/pztj/275738.shtml" title="小麦新品种-中麦24" target="_blank">            小麦新品种-中麦24
-                                </a></li>
-                                <li><a href="kj/pztj/275478.shtml" title="水稻新品种-国稻1号" target="_blank">            水稻新品种-国稻1号
-                                </a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-12">
-                            <h2>农业视频</h2>
-                            <img src="image/shipin.jpg" class="img-center" style="width: 240px;height: 140px;">
-
-                            <p>沼气技术在新农村建设中的作用</p>
-
-                            <p><a class="btn btn-lg btn-primary" href="video.html" target="_blank"
-                                  role="button">观看视频</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div style="margin-bottom: 30px;">
-                            <div class="panel panel-info communication">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">宣传专栏</h3>
-                                </div>
-                                <div class="panel-body txtScroll-top">
-                                    <div class="bd">
-                                        <div>
-                                            <div style="overflow: hidden;position: relative;width: 441px;">
-                                                <ul style="width: 33957px;position: relative;overflow: hidden;">
-                                                    <li class="clo" style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                杨绍品党组成员在国家现代农业示范区培训班上的讲话
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                中华人民共和国农业部公告 第2329号
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                中华人民共和国农业部令2016年 第4号
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                农业部办公厅关于征求《“十三五”期间进一步加强渔船管理控制海洋捕捞强度的通知》意见的函
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                农业部办公厅关于公布第二批国家肉牛核心育种场名单的通知
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                农业部办公厅关于进一步做好休闲农业与乡村旅游宣传推介工作的通知
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                农业部办公厅关于召开完善“十三五”海洋捕捞渔船控制制度研讨会的通知
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                中华人民共和国农业部公告第2326号
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                中华人民共和国农业部公告第2328号
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                    <li style="float: left;width: 441px;">
-                                                        <blockquote>
-                                                            <p>
-                                                                中华人民共和国农业部公告第2325号
-                                                            </p>
-                                                        </blockquote>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="">
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li role="presentation" class="active"><a href="#">关于我们</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div style="margin-bottom: 20px;">
-                            <div class="col-md-12">
-                                <h2>农业广告</h2>
-                                <img src="image/guanggao.jpg" class="img-center" style="width: 240px;height: 140px;">
-                                <p>棉花工厂化育苗和机械化移栽技术</p>
-                                <p><a class="btn btn-lg btn-primary" onclick="clickA()" target="_blank" role="button">播放/暂停</a></p>
-                            </div>
-                        </div>
+                    <div class="carousel-caption">
+                        <h3>农业智能化的发展方向:</h3>
+                        <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+                <div class="item">
+                    <img src="src/images/carousel/1.jpg" class="img-responsive full-width">
 
-
-
-    <div class="container">
-        <div class="well well-sm" style="background-color: #fcfcfc;box-shadow: none;border-width: 0 1px 1px 1px; ">
-
-    <div class="row2">
-        <div class="main-title">
-            <h2>科技</h2>
-            <ul>
-                <li><a href="kj/syjs/index.shtml" target="_blank">实用技术</a></li>
-                <li><a href="kj/pztj/index.shtml" target="_blank">品种推介</a></li>
-                <li><a href="kj/cgtj/index.shtml" target="_blank">成果推介</a></li>
-                <li><a href="kj/kjzt/index.shtml" target="_blank">科技专题</a></li>
-                <li><a href="kj/kjyjk/index.shtml" target="_blank">科技与健康</a></li>
-            </ul>
-        </div>
-        <div class="main-content">
-            <div class="shiyong" id="box1">
-                <div class="title"><h2>实用技术</h2></div>
-                <div class="box2" id="box2">
-                    <h3 class="active"><span><a href="kj/syjs/zzyjs/index.shtml">更多</a></span>种植业技术</h3>
-                    <ul style="display:block;">
-                        <li><a href="kj/syjs/zzyjs/276772.shtml" title="青提葡萄冬季施肥要点" target="_blank">            青提葡萄冬季施肥要点
-                        </a></li>
-                        <li><a href="kj/syjs/zzyjs/276771.shtml" title="丝瓜种子怎么人工催芽" target="_blank">            丝瓜种子怎么人工催芽
-                        </a></li>
-                        <li><a href="kj/syjs/zzyjs/276770.shtml" title="秋冬天究竟如何储存大白菜" target="_blank">            秋冬天究竟如何储存大白菜
-                        </a></li>
-                        <li><a href="kj/syjs/zzyjs/276769.shtml" title="猕猴桃冬季施肥三法" target="_blank">            猕猴桃冬季施肥三法
-                        </a></li>
-                        <li><a href="kj/syjs/zzyjs/276727.shtml" title="油菜冬季抗寒防冻五项措施" target="_blank">            油菜冬季抗寒防冻五项措施
-                        </a></li>
-                        <li><a href="kj/syjs/zzyjs/276726.shtml" title="土豆冬日施肥三招" target="_blank">            土豆冬日施肥三招
-                        </a></li>
-                    </ul>
-                    <h3><span><a href="kj/syjs/yzyjs/index.shtml">更多</a></span>养殖业技术</h3>
-                    <ul style="display:none;">
-                        <li><a href="kj/syjs/yzyjs/276777.shtml" title="如何养好鲶鱼" target="_blank">            如何养好鲶鱼
-                        </a></li>
-                        <li><a href="kj/syjs/yzyjs/276776.shtml" title="羔羊的早期诱食" target="_blank">            羔羊的早期诱食
-                        </a></li>
-                        <li><a href="kj/syjs/yzyjs/276775.shtml" title="养鱼投喂饲料要注意方法" target="_blank">            养鱼投喂饲料要注意方法
-                        </a></li>
-                        <li><a href="kj/syjs/yzyjs/276774.shtml" title="虾蟹套养的饲养管理技术介绍" target="_blank">            虾蟹套养的饲养管理技术介...
-                        </a></li>
-                        <li><a href="kj/syjs/yzyjs/276736.shtml" title="入冬后山羊饲养管理技术" target="_blank">            入冬后山羊饲养管理技术
-                        </a></li>
-                        <li><a href="kj/syjs/yzyjs/276735.shtml" title="哺乳母猪料的使用注意问题" target="_blank">            哺乳母猪料的使用注意问题
-                        </a></li>
-                    </ul>
-                    <h3><span><a href="kj/syjs/zwbhjs/index.shtml">更多</a></span>植物保护技术</h3>
-                    <ul style="display:none;">
-                        <li><a href="kj/syjs/zwbhjs/276785.shtml" title="小麦赤霉病的发生适期与防治措施" target="_blank">            小麦赤霉病的发生适期与防...
-                        </a></li>
-                        <li><a href="kj/syjs/zwbhjs/276784.shtml" title="大豆几种病害防治方法" target="_blank">            大豆几种病害防治方法
-                        </a></li>
-                        <li><a href="kj/syjs/zwbhjs/276779.shtml" title="果树病虫藏在哪过冬" target="_blank">            果树病虫藏在哪过冬
-                        </a></li>
-                        <li><a href="kj/syjs/zwbhjs/276778.shtml" title="冬防枣树病虫害抓七点" target="_blank">            冬防枣树病虫害抓七点
-                        </a></li>
-                        <li><a href="kj/syjs/zwbhjs/276746.shtml" title="适时喷药防治玉米大斑病" target="_blank">            适时喷药防治玉米大斑病
-                        </a></li>
-                        <li><a href="kj/syjs/zwbhjs/276745.shtml" title="水稻毒害及防治措施" target="_blank">            水稻毒害及防治措施
-                        </a></li>
-                    </ul>
-                    <h3><span><a href="kj/syjs/dwyx/index.shtml">更多</a></span>动物医学</h3>
-                    <ul style="display:none;">
-                        <li><a href="kj/syjs/dwyx/276783.shtml" title="如何做好牛场的防疫卫生" target="_blank">            如何做好牛场的防疫卫生
-                        </a></li>
-                        <li><a href="kj/syjs/dwyx/276782.shtml" title="5种猪腹泻病的症状与防治" target="_blank">            5种猪腹泻病的症状与防治
-                        </a></li>
-                        <li><a href="kj/syjs/dwyx/276781.shtml" title="仔猪拉稀防控策略" target="_blank">            仔猪拉稀防控策略
-                        </a></li>
-                        <li><a href="kj/syjs/dwyx/276780.shtml" title="如何及早发现病羊" target="_blank">            如何及早发现病羊
-                        </a></li>
-                        <li><a href="kj/syjs/dwyx/276742.shtml" title="羊病重在预防和抓膘" target="_blank">            羊病重在预防和抓膘
-                        </a></li>
-                        <li><a href="kj/syjs/dwyx/276741.shtml" title="应激乃猪病之源" target="_blank">            应激乃猪病之源
-                        </a></li>
-                    </ul>
+                    <div class="carousel-caption">
+                        <h3>农业智能化的发展方向:农业里的阿尔法狗</h3>
+                        <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
+                    </div>
                 </div>
-            </div>
-            <div class="unit1">
-                <div class="title"><h2>品种推介</h2><a href="kj/pztj/index.shtml" target="_blank">更多</a></div>
-                <img src="images/content/2016-11/20161114100702017381.jpg">
-                <ul>
-                    <li><a href="kj/pztj/276756.shtml" title="水稻新品种-徐稻3号" target="_blank">            水稻新品种-徐稻3号
-                    </a></li>
-                    <li><a href="kj/pztj/276604.shtml" title="大豆新品种-徐豆 15" target="_blank">            大豆新品种-徐豆 15
-                    </a></li>
-                    <li><a href="kj/pztj/276298.shtml" title="油料新品种（芝麻）-中芝 11号" target="_blank">            油料新品种（芝麻）-中芝...
-                    </a></li>
-                    <li><a href="kj/pztj/276025.shtml" title="杂粮新品种-徐薯 22号" target="_blank">            杂粮新品种-徐薯 22号
-                    </a></li>
-                    <li><a href="kj/pztj/275738.shtml" title="小麦新品种-中麦24" target="_blank">            小麦新品种-中麦24
-                    </a></li>
-                    <li><a href="kj/pztj/275478.shtml" title="水稻新品种-国稻1号" target="_blank">            水稻新品种-国稻1号
-                    </a></li>
-                </ul>
-            </div>
-            <div class="unit1">
-                <div class="title"><h2>成果推介</h2><a href="kj/cgtj/index.shtml" target="_blank">更多</a></div>
-                <img src="images/content/2016-11/20161114140053696445.jpg">
-                <ul>
-                    <li><a href="kj/cgtj/276761.shtml" title="我科学家在稻米蛋白品质形成分子机制研究中取得新进展" target="_blank">            我科学家在稻米蛋白品质形...
-                    </a></li>
-                    <li><a href="kj/cgtj/276605.shtml" title="“富硒果品生产技术研究与示范”成果获华耐园艺科技奖" target="_blank">            “富硒果品生产技术研究与...
-                    </a></li>
-                    <li><a href="kj/cgtj/276299.shtml" title="中国农科院饲用苎麻收割机研发获得重要突破" target="_blank">            中国农科院饲用苎麻收割机...
-                    </a></li>
-                    <li><a href="kj/cgtj/276026.shtml" title="我国科学家解析芥菜基因组结构和起源" target="_blank">            我国科学家解析芥菜基因组...
-                    </a></li>
-                    <li><a href="kj/cgtj/275743.shtml" title="国内首台园艺固肥施用残秧处理多功能机面世" target="_blank">            国内首台园艺固肥施用残秧...
-                    </a></li>
-                    <li><a href="kj/cgtj/275479.shtml" title="Nature子刊：华中农业大学发表测序新成果" target="_blank">            Nature子刊：华中农...
-                    </a></li>
-                </ul>
-            </div>
-            <div class="unit1" style="border:none;">
-                <div class="title"><h2>科技与健康</h2><a href="kj/kjyjk/index.shtml" target="_blank">更多</a></div>
-                <img src="images/content/2016-11/20161114145829585042.jpg">
-                <ul>
-                    <li><a href="kj/kjyjk/276768.shtml" title="低血压患者的饮食禁忌 " target="_blank">            低血压患者的饮食禁忌
-                    </a></li>
-                    <li><a href="kj/kjyjk/276607.shtml" title=" 吃啥补啥真的可靠吗" target="_blank">             吃啥补啥真的可靠吗
-                    </a></li>
-                    <li><a href="kj/kjyjk/276300.shtml" title="多吃洋葱有哪些益处" target="_blank">            多吃洋葱有哪些益处
-                    </a></li>
-                    <li><a href="kj/kjyjk/276020.shtml" title="秋天吃红薯的注意事项" target="_blank">            秋天吃红薯的注意事项
-                    </a></li>
-                    <li><a href="kj/kjyjk/275753.shtml" title="14个饮食搭配毁掉你健康" target="_blank">            14个饮食搭配毁掉你健康
-                    </a></li>
-                    <li><a href="kj/kjyjk/275480.shtml" title="饭后做什么最有益健康" target="_blank">            饭后做什么最有益健康
-                    </a></li>
-                </ul>
-            </div>
+                <div class="item">
+                    <img src="src/images/carousel/2.jpg" class="img-responsive full-width">
 
+                    <div class="carousel-caption">
+                        <h3>未来10大农业新兴技术“带你飞”</h3>
+                        <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="src/images/carousel/3.jpg" class="img-responsive full-width">
+
+                    <div class="carousel-caption">
+                        <h3>未来10大农业新兴技术“带你飞”</h3>
+                        <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="src/images/carousel/4.jpg" class="img-responsive full-width">
+
+                    <div class="carousel-caption">
+                        <h3>未来10大农业新兴技术“带你飞”</h3>
+                        <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="src/images/carousel/5.jpg" class="img-responsive full-width">
+
+                    <div class="carousel-caption">
+                        <h3>未来10大农业新兴技术“带你飞”</h3>
+                        <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="src/images/carousel/6.jpg" class="img-responsive full-width">
+
+                    <div class="carousel-caption">
+                        <h3>未来10大农业新兴技术“带你飞”</h3>
+                        <a ui-sref=".resume"><p>歌人工智能AlphaGo与世界围棋冠军李世石</p></a>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#ad-carousel" role="button"
+                   data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <!--<i class="fa fa-chevron-left" aria-hidden="true"></i>-->
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#ad-carousel" role="button"
+                   data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">NEXT</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
-    </div>
-
+<div class="main">
     <div class="container">
-        <div class="well well-sm" style="background-color: #fcfcfc;box-shadow: none;border-width: 0 1px 1px 1px; ">
-            <div class="row">
-                <div class="nav nav-pills" role="tablist">
-                    <button class="btn btn-primary" type="button" style="background-color: #1abc9c">
-                        品牌联盟 <span class="badge"></span>
-                    </button>
+        <div class="row2">
+            <div class="main-title">
+                <h2>科技</h2>
+                <ul>
+                    <li><a href="http://www.cast.net.cn/kj/syjs/index.shtml" target="_blank">实用技术</a></li>
+                    <li><a href="http://www.cast.net.cn/kj/pztj/index.shtml" target="_blank">品种推介</a></li>
+                    <li><a href="http://www.cast.net.cn/kj/cgtj/index.shtml" target="_blank">成果推介</a></li>
+                    <li><a href="http://www.cast.net.cn/kj/kjzt/index.shtml" target="_blank">科技专题</a></li>
+                    <li><a href="http://www.cast.net.cn/kj/kjyjk/index.shtml" target="_blank">科技与健康</a></li>
+                </ul>
+            </div>
+            <div class="main-content col-lg-12">
+                <div class="shiyong col-lg-3" id="box2">
+                    <div class="title">
+                        <h2>实用技术</h2>
+                    </div>
+                    <h3 class="active">
+                            <span>
+                                <a href="http://www.cast.net.cn/kj/syjs/zzyjs/index.shtml">更多</a>
+                            </span>
+                        种植业技术
+                    </h3>
+                    <ul style="display:block;">
+                        <li><a href="kj/syjs/zzyjs/276772.shtml" title="青提葡萄冬季施肥要点" target="_blank"> 青提葡萄冬季施肥要点
+                        </a></li>
+                        <li><a href="kj/syjs/zzyjs/276771.shtml" title="丝瓜种子怎么人工催芽" target="_blank"> 丝瓜种子怎么人工催芽
+                        </a></li>
+                        <li><a href="kj/syjs/zzyjs/276770.shtml" title="秋冬天究竟如何储存大白菜" target="_blank">
+                            秋冬天究竟如何储存大白菜
+                        </a></li>
+                        <li><a href="kj/syjs/zzyjs/276769.shtml" title="猕猴桃冬季施肥三法" target="_blank"> 猕猴桃冬季施肥三法
+                        </a></li>
+                        <li><a href="kj/syjs/zzyjs/276727.shtml" title="油菜冬季抗寒防冻五项措施" target="_blank">
+                            油菜冬季抗寒防冻五项措施
+                        </a></li>
+                        <li><a href="kj/syjs/zzyjs/276726.shtml" title="土豆冬日施肥三招" target="_blank"> 土豆冬日施肥三招
+                        </a></li>
+                    </ul>
+                    <h3><span><a href="http://www.cast.net.cn/kj/syjs/yzyjs/index.shtml">更多</a></span>养殖业技术</h3>
+                    <ul style="display:none;">
+                        <li><a href="kj/syjs/yzyjs/276777.shtml" title="如何养好鲶鱼" target="_blank"> 如何养好鲶鱼
+                        </a></li>
+                        <li><a href="kj/syjs/yzyjs/276776.shtml" title="羔羊的早期诱食" target="_blank"> 羔羊的早期诱食
+                        </a></li>
+                        <li><a href="kj/syjs/yzyjs/276775.shtml" title="养鱼投喂饲料要注意方法" target="_blank">
+                            养鱼投喂饲料要注意方法
+                        </a></li>
+                        <li><a href="kj/syjs/yzyjs/276774.shtml" title="虾蟹套养的饲养管理技术介绍" target="_blank">
+                            虾蟹套养的饲养管理技术介...
+                        </a></li>
+                        <li><a href="kj/syjs/yzyjs/276736.shtml" title="入冬后山羊饲养管理技术" target="_blank">
+                            入冬后山羊饲养管理技术
+                        </a></li>
+                        <li><a href="kj/syjs/yzyjs/276735.shtml" title="哺乳母猪料的使用注意问题" target="_blank">
+                            哺乳母猪料的使用注意问题
+                        </a></li>
+                    </ul>
+                    <h3><span><a href="http://www.cast.net.cn/kj/syjs/zwbhjs/index.shtml">更多</a></span>植物保护技术</h3>
+                    <ul style="display:none;">
+                        <li><a href="kj/syjs/zwbhjs/276785.shtml" title="小麦赤霉病的发生适期与防治措施" target="_blank">
+                            小麦赤霉病的发生适期与防...
+                        </a></li>
+                        <li><a href="kj/syjs/zwbhjs/276784.shtml" title="大豆几种病害防治方法" target="_blank"> 大豆几种病害防治方法
+                        </a></li>
+                        <li><a href="kj/syjs/zwbhjs/276779.shtml" title="果树病虫藏在哪过冬" target="_blank"> 果树病虫藏在哪过冬
+                        </a></li>
+                        <li><a href="kj/syjs/zwbhjs/276778.shtml" title="冬防枣树病虫害抓七点" target="_blank"> 冬防枣树病虫害抓七点
+                        </a></li>
+                        <li><a href="kj/syjs/zwbhjs/276746.shtml" title="适时喷药防治玉米大斑病" target="_blank">
+                            适时喷药防治玉米大斑病
+                        </a></li>
+                        <li><a href="kj/syjs/zwbhjs/276745.shtml" title="水稻毒害及防治措施" target="_blank"> 水稻毒害及防治措施
+                        </a></li>
+                    </ul>
+                    <h3><span><a href="http://www.cast.net.cn/kj/syjs/dwyx/index.shtml">更多</a></span>动物医学</h3>
+                    <ul style="display:none;">
+                        <li><a href="http://www.cast.net.cn/kj/syjs/dwyx/276783.shtml" title="如何做好牛场的防疫卫生"
+                               target="_blank"> 如何做好牛场的防疫卫生
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/syjs/dwyx/276782.shtml" title="5种猪腹泻病的症状与防治"
+                               target="_blank">
+                            5种猪腹泻病的症状与防治
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/syjs/dwyx/276781.shtml" title="仔猪拉稀防控策略" target="_blank">
+                            仔猪拉稀防控策略
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/syjs/dwyx/276780.shtml" title="如何及早发现病羊" target="_blank">
+                            如何及早发现病羊
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/syjs/dwyx/276742.shtml" title="羊病重在预防和抓膘"
+                               target="_blank"> 羊病重在预防和抓膘
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/syjs/dwyx/276741.shtml" title="应激乃猪病之源" target="_blank">
+                            应激乃猪病之源
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="unit1 col-lg-3">
+                    <div class="title"><h2>品种推介</h2><a href="http://www.cast.net.cn/kj/pztj/index.shtml"
+                                                       target="_blank">更多</a></div>
+                    <img src="src/images//20161114100702017381.jpg">
+                    <ul>
+                        <li><a href="http://www.cast.net.cn/kj/pztj/276756.shtml" title="水稻新品种-徐稻3号" target="_blank">
+                            水稻新品种-徐稻3号
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/pztj/276604.shtml" title="大豆新品种-徐豆 15" target="_blank">
+                            大豆新品种-徐豆 15
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/pztj/276298.shtml" title="油料新品种（芝麻）-中芝 11号"
+                               target="_blank"> 油料新品种（芝麻）-中芝...
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/pztj/276025.shtml" title="杂粮新品种-徐薯 22号" target="_blank">
+                            杂粮新品种-徐薯 22号
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/pztj/275738.shtml" title="小麦新品种-中麦24" target="_blank">
+                            小麦新品种-中麦24
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/pztj/275478.shtml" title="水稻新品种-国稻1号" target="_blank">
+                            水稻新品种-国稻1号
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="unit1 col-lg-3">
+                    <div class="title"><h2>成果推介</h2><a href="http://www.cast.net.cn/kj/cgtj/index.shtml"
+                                                       target="_blank">更多</a></div>
+                    <img src="src/images/20161114140053696445.jpg">
+                    <ul>
+                        <li><a href="http://www.cast.net.cn/kj/cgtj/276761.shtml" title="我科学家在稻米蛋白品质形成分子机制研究中取得新进展"
+                               target="_blank">
+                            我科学家在稻米蛋白品质形...
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/cgtj/276605.shtml" title="“富硒果品生产技术研究与示范”成果获华耐园艺科技奖"
+                               target="_blank">
+                            “富硒果品生产技术研究与...
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/cgtj/276299.shtml" title="中国农科院饲用苎麻收割机研发获得重要突破"
+                               target="_blank">
+                            中国农科院饲用苎麻收割机...
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/cgtj/276026.shtml" title="我国科学家解析芥菜基因组结构和起源"
+                               target="_blank">
+                            我国科学家解析芥菜基因组...
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/cgtj/275743.shtml" title="国内首台园艺固肥施用残秧处理多功能机面世"
+                               target="_blank">
+                            国内首台园艺固肥施用残秧...
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/cgtj/275479.shtml" title="Nature子刊：华中农业大学发表测序新成果"
+                               target="_blank">
+                            Nature子刊：华中农...
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="unit1 col-lg-3" style="border:none;">
+                    <div class="title"><h2>科技与健康</h2><a href="http://www.cast.net.cn/kj/kjyjk/index.shtml"
+                                                        target="_blank">更多</a></div>
+                    <img src="src/images/20161114145829585042.jpg">
+                    <ul>
+                        <li><a href="http://www.cast.net.cn/kj/kjyjk/276768.shtml" title="低血压患者的饮食禁忌 " target="_blank">
+                            低血压患者的饮食禁忌
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/kjyjk/276607.shtml" title=" 吃啥补啥真的可靠吗" target="_blank">
+                            吃啥补啥真的可靠吗
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/kjyjk/276300.shtml" title="多吃洋葱有哪些益处" target="_blank">
+                            多吃洋葱有哪些益处
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/kjyjk/276020.shtml" title="秋天吃红薯的注意事项" target="_blank">
+                            秋天吃红薯的注意事项
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/kjyjk/275753.shtml" title="14个饮食搭配毁掉你健康" target="_blank">
+                            14个饮食搭配毁掉你健康
+                        </a></li>
+                        <li><a href="http://www.cast.net.cn/kj/kjyjk/275480.shtml" title="饭后做什么最有益健康" target="_blank">
+                            饭后做什么最有益健康
+                        </a></li>
+                    </ul>
                 </div>
 
-                <div class="col-md-12">
-                    <div id="butong_net_left" style="overflow:hidden;width:1100px;">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                            <tr><td id="butong_net_left1" valign="top" align="center">
-                                <table cellpadding="2" cellspacing="0" border="0">
-                                    <tr align="center">
-                                        <div class="col-md-2"> <td><a href="http://www.crnews.net/"><img src="src/images/11.jpg"></a></td></div>
-                                        <div class="col-md-2"> <td><a href="http://www.ngx.net.cn/"><img src="src/images/22.jpg"></a></td></div>
-                                        <div class="col-md-2"> <td><a href="http://www.ntv.cn/"><img src="src/images/33.jpg"></a></td></div>
-                                        <div class="col-md-2"> <td><a href="http://www.ntv.cn/"><img src="src/images/44.jpg"></a></td></div>
-                                        <div class="col-md-2"> <td><a href="http://www.ntv.cn/"><img src="src/images/55.jpg"></a></td></div>
-                                        <div class="col-md-2"> <td><a href="http://www.ntv.cn/"><img src="src/images/66.jpg"></a></td></div>
-                                    </tr>
-                                </table>
-                            </td>
-                                <td id="butong_net_left2" valign="top"></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
             </div>
         </div>
+        <div class="clearfix"></div>
+        <div class="links" style="height:134px;   background:none; margin-bottom:15px;">
+            <div class="title">
+                <a href="javascript:;" class="active" style="float:left">科技专题</a><a
+                    href="http://www.cast.net.cn/kj/kjzt/index.shtml" target="_blank" style="float:right">更多</a>
+            </div>
+            <div class="srcoll">
+                <div class="scenery">
+                    <style type="text/css">
+                        #demos {
+                            overflow: hidden;
+                            position: relative;
+                        }
+
+                        #indemo {
+                            float: left;
+                            width: 10000px;
+                        }
+
+                        #demo1, #demo2 {
+                            width: auto;
+                            float: left;
+                            margin: 0px;
+                            padding: 0px;
+                        }
+
+                        #demo1 ul {
+                            padding: 0px;
+                        }
+
+                        #demo2 ul {
+                            padding: 0px;
+                        }
+                    </style>
+                    <div id="demos">
+                        <div id="indemo">
+                            <div id="demo1">
+                                <ul>
+                                    <li><a href="http://www.caas.cn/kjcxgczl/index.shtml" title="科技创新工程"
+                                           target="_blank"><img src="src/images/20131214162453009985.jpg" width="185"
+                                                                height="85"><span>            科技创新工程
+    </span></a></li>
+                                    <li><a href="http://www.caas.net.cn/zt/bxzdtgcg/index.shtml" title="百项重点推广成果"
+                                           target="_blank"><img src="src/images/20131214162731848017.jpg" width="185"
+                                                                height="85"><span>            百项重点推广成果
+    </span></a></li>
+                                    <li><a href="http://www.caas.cn/zt/kjfpgzhm/index.shtml" title="科技扶贫工作回眸"
+                                           target="_blank"><img src="src/images/20131214162755732135.jpg" width="185"
+                                                                height="85"><span>            科技扶贫工作回眸
+    </span></a></li>
+                                    <li><a href="http://www.caas.cn/zt/jsxdnykyyszl/index.shtml" title="建设现代农业科研院所专栏"
+                                           target="_blank"><img src="src/images/20131214162819569257.jpg" width="185"
+                                                                height="85"><span>            建设现代农业科研院所...
+    </span></a></li>
+                                    <li><a href="http://www.caas.cn/zt/swyyzlyaq/index.shtml" title="食品营养质量与安全"
+                                           target="_blank"><img src="src/images/20131214162835762353.jpg" width="185"
+                                                                height="85"><span>            食品营养质量与安全
+    </span></a></li>
+                                </ul>
+                            </div>
+                            <div id="demo2">
+                                <ul>
+                                    <li><a href="http://www.caas.cn/kjcxgczl/index.shtml" title="科技创新工程"
+                                           target="_blank"><img src="src/images/20131214162453009985.jpg" width="185"
+                                                                height="85"><span>            科技创新工程
+    </span></a></li>
+                                    <li><a href="http://www.caas.net.cn/zt/bxzdtgcg/index.shtml" title="百项重点推广成果"
+                                           target="_blank"><img src="src/images/20131214162731848017.jpg" width="185"
+                                                                height="85"><span>            百项重点推广成果
+    </span></a></li>
+                                    <li><a href="http://www.caas.cn/zt/kjfpgzhm/index.shtml" title="科技扶贫工作回眸"
+                                           target="_blank"><img src="src/images/20131214162755732135.jpg" width="185"
+                                                                height="85"><span>            科技扶贫工作回眸
+    </span></a></li>
+                                    <li><a href="http://www.caas.cn/zt/jsxdnykyyszl/index.shtml" title="建设现代农业科研院所专栏"
+                                           target="_blank"><img src="src/images/20131214162819569257.jpg" width="185"
+                                                                height="85"><span>            建设现代农业科研院所...
+    </span></a></li>
+                                    <li><a href="http://www.caas.cn/zt/swyyzlyaq/index.shtml" title="食品营养质量与安全"
+                                           target="_blank"><img src="src/images/20131214162835762353.jpg" width="185"
+                                                                height="85"><span>            食品营养质量与安全
+    </span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        var speed = 6;
+                        var tab = document.getElementById("demos");
+                        var tab1 = document.getElementById("demo1");
+                        var tab2 = document.getElementById("demo2");
+                        tab2.innerHTML = tab1.innerHTML;
+                        function Marquee() {
+                            if (tab2.offsetWidth - tab.scrollLeft <= 0)
+                                tab.scrollLeft -= tab1.offsetWidth
+                            else {
+                                tab.scrollLeft++;
+                            }
+                        }
+                        var MyMar = setInterval(Marquee, speed);
+                        tab.onmouseover = function () {
+                            clearInterval(MyMar)
+                        };
+                        tab.onmouseout = function () {
+                            MyMar = setInterval(Marquee, speed)
+                        };
+                    </script>
+                </div>
+            </div>
+            <!--srcoll结束-->
+        </div>
     </div>
-    <script>
-        $('.carousel').carousel({
-            interval: 5000
-        })
-    </script>
+</div>
+
+
+<!--<div class="container">-->
+<!--<div class="well well-sm" style="background-color: #fcfcfc;box-shadow: none;border-width: 0 1px 1px 1px; ">-->
+<!--<div class="row">-->
+<!--<div class="nav nav-pills" role="tablist">-->
+<!--<button class="btn btn-primary" type="button" style="background-color: #1abc9c">-->
+<!--品牌联盟 <span class="badge"></span>-->
+<!--</button>-->
+<!--</div>-->
+
+<!--<div class="col-md-12">-->
+<!--<div id="butong_net_left" style="overflow:hidden;width:1100px;">-->
+<!--<table cellpadding="0" cellspacing="0" border="0">-->
+<!--<tr>-->
+<!--<td id="butong_net_left1" valign="top" align="center">-->
+<!--<table cellpadding="2" cellspacing="0" border="0">-->
+<!--<tr align="center">-->
+<!--<div class="col-md-2">-->
+<!--<td><a href="http://www.crnews.net/"><img src="src/images/11.jpg"></a>-->
+<!--</td>-->
+<!--</div>-->
+<!--<div class="col-md-2">-->
+<!--<td><a href="http://www.ngx.net.cn/"><img src="src/images/22.jpg"></a>-->
+<!--</td>-->
+<!--</div>-->
+<!--<div class="col-md-2">-->
+<!--<td><a href="http://www.ntv.cn/"><img src="src/images/33.jpg"></a></td>-->
+<!--</div>-->
+<!--<div class="col-md-2">-->
+<!--<td><a href="http://www.ntv.cn/"><img src="src/images/44.jpg"></a></td>-->
+<!--</div>-->
+<!--<div class="col-md-2">-->
+<!--<td><a href="http://www.ntv.cn/"><img src="src/images/55.jpg"></a></td>-->
+<!--</div>-->
+<!--<div class="col-md-2">-->
+<!--<td><a href="http://www.ntv.cn/"><img src="src/images/66.jpg"></a></td>-->
+<!--</div>-->
+<!--</tr>-->
+<!--</table>-->
+<!--</td>-->
+<!--<td id="butong_net_left2" valign="top"></td>-->
+<!--</tr>-->
+<!--</table>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+</script>
 </header>

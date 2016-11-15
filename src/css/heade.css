@@ -1,66 +1,197 @@
+.main {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-top: 100px;
+    /*padding-bottom: 100px;*/
+}
+
+.main a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main a:hover {
+    text-decoration: underline;
+    color: #f6bc01;
+}
+
+.main .container {
+    padding: 15px 10px;
+    background: #fbfbfb;
+}
+
 .row2 {
-    width: 1000px;
-    height: 420px;
+    /*width: 978px;*/
+    height: 470px;
     background: #fff;
     border: 1px solid #ddd;
     margin-bottom: 15px;
 }
-.unit1 {
-    width: 238px;
-    height: 370px;
-    border-right: 1px solid #ddd;
-    float: left;
-}
-.main-title {
-    width: 1000px;
-    height: 48px;
-    padding: 0 20px;
-    line-height: 48px;
-    border-bottom: 1px solid #ddd;
-}
-h2 {
-    display: block;
-    font-size: 1.5em;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-}
+
 .row2 .main-title h2 {
     padding-left: 20px;
     background: url(../images/index_25.jpg) no-repeat left center;
     color: #6d4d00;
     font-size: 24px;
     font-weight: normal;
+    width: 230px;
+    float: left;
+}
+
+.row2 .main-title ul li {
+    background: url(../images/index_27.jpg) no-repeat left center;
+}
+
+.main-title {
+    /*width: 938px;*/
+    height: 48px;
+    padding: 0 20px;
+    line-height: 48px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-title h2 {
+    padding-left: 20px;
+    background: url(../images/index_09.jpg) no-repeat left center;
+    color: #c34b1f;
+    font-size: 24px;
+    font-weight: normal;
     width: 150px;
     float: left;
 }
+
+.main-title ul {
+    float: left;
+    /*width: 765px;*/
+}
+
+.main-title ul li {
+    float: left;
+    display: inline-block;
+    padding-left: 20px;
+    width: 100px;
+}
+
 .main-title ul li a {
     color: #333;
     font-size: 16px;
 }
-a {
-    text-decoration: none;
-    color: #333;
-}
+
 .main-content {
-    width: 978px;
+    /*width: 978px;*/
     height: 370px;
+    margin-top: -28px;
 }
+
 .shiyong {
-    width: 240px;
-    height: 370px;
+    /*width: 240px;*/
+    height: 420px;
     float: left;
     border-right: 1px solid #ddd;
     padding: 0 10px;
 }
+
+.shiyong .title {
+    /*width: 100%;*/
+    /*height: 45px;*/
+    /*line-height: 45px;*/
+}
+
+.shiyong .title h2 {
+    color: #006b6d;
+    font-size: 18px;
+    /*margin-bottom: -14px;*/
+}
+
+.shiyong h3 {
+    padding-left: 20px;
+    border-top: 1px solid #018842;
+    font-size: 16px;
+    color: #333 /*018842*/;
+    cursor: pointer;
+    height: 22px;
+    line-height: 30px;
+    font-weight: normal;
+    background: url(../images/index_30.jpg) no-repeat left bottom;
+}
+
+.shiyong h3.active {
+    color: #018842;
+    background-position: left top;
+    /*margin-bottom: -16px;*/
+}
+
+.shiyong h3 span {
+    float: right;
+    font-size: 12px;
+    font-weight: 100;
+    color: #666666;
+}
+
+.shiyong ul {
+    /*padding-bottom: 0px;*/
+    /*padding-top: 0px;*/
+    padding: 10px;
+}
+
+.shiyong ul li {
+    /*height: 10px;*/
+    line-height: 24px;
+    overflow: hidden;
+    padding-left: 20px;
+    width: 200px;
+    background: url(../images/index_17.jpg) no-repeat left center;
+}
+
+.shiyong ul li a {
+    color: #333;
+    float: left;
+}
+
+.shiyong ul li span {
+    color: #666;
+    float: right;
+}
+
+.unit1 {
+    /*width: 238px;*/
+    height: 420px;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+
 .unit1 .title {
-    width: 80%;
+    vertical-align: middle;
+    /*width: 80%;*/
     height: 45px;
     line-height: 45px;
-    padding: 0 10%;
+    /*padding: 0 10%;*/
 }
+
+.unit1 .title a {
+    color: #555;
+    font-size: 12px;
+    float: right;
+}
+
+.unit1 .title h2 {
+    color: #006b6d;
+    font-size: 18px;
+    float: left;
+}
+
+.unit1 img {
+    width: 260px;
+    height: 150px;
+    padding: 0px 19px 10px 19px;
+}
+
+.unit1 ul {
+    padding: 0 20px;
+    _padding: 0 10px;
+}
+
 .unit1 ul li {
     height: 24px;
     line-height: 24px;
@@ -69,11 +200,122 @@ a {
     overflow: hidden;
     background: url(../images/index_17.jpg) no-repeat left center;
 }
+
 .unit1 ul li a {
     color: #333;
     float: left;
 }
-a {
-    text-decoration: none;
-    color: #333;
+
+.links {
+    /*width: 978px;*/
+    height: 100px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.links .title {
+    /*width: 958px;*/
+    height: 32px;
+    border-bottom: 1px solid #eee;
+    background: #fbfbfb;
+    color: #6e6e6e;
+    line-height: 32px;
+    padding-left: 20px;
+}
+
+.links .title a {
+    color: #6e6e6e;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.links .title a.active {
+    color: #006b6d;
+    font-size: 18px;
+}
+
+.links form {
+    /*width: 958px;*/
+    height: 32px;
+    padding-top: 25px;
+}
+
+.links form select {
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 0 15px;
+}
+
+.srcoll {
+    /*width: 978px;*/
+    height: 100px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.scenery {
+    /*width: 938px;*/
+    height: 85px;
+    margin: 7px 20px;
+    overflow: hidden;
+}
+
+.scenery ul {
+    display: inline;
+}
+
+.scenery ul li {
+    width: 191px;
+    float: left;
+    margin: 0px 10px;
+    text-align: center;
+    line-height: 24px;
+    display: inline;
+    position: relative;
+}
+
+.scenery ul li img {
+    width: 185px;
+    height: 85px;
+    background: #FFFFFF;
+    padding: 2px;
+    border: 1px solid #c7c7c7;
+}
+
+.scenery ul li a {
+    display: block;
+    width: 185px;
+    color: #000;
+}
+
+.scenery ul li a span {
+    width: 185px;
+    height: 25px;
+    position: absolute;
+    bottom: 2px;
+    left: 3px;
+    background: #fff;
+    opacity: 0.8;
+    color: #006b6d;
+    font-weight: 700;
+    filter: alpha(opacity=80);
+}
+
+.scenery ul li a:hover {
+    width: 185px;
+    color: #f60;
+}
+
+ul, menu, dir {
+    /*display: block;*/
+    /*list-style-type: disc;*/
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
